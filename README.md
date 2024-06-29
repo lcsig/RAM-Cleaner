@@ -1,12 +1,9 @@
 # RAM Cleaner ...
-
-#### Simple program that cleans the RAM of each process
-##### Designed to work at windows startup to clean the RAM repeatedly after certain time interval
+A program to optimize your system's performance, and clears the RAM of every process. Configured to initiate with Windows startup, it ensures continuous RAM cleaning at specified intervals you determine. 
 
 
-
-## Programming ...
-
+## Technical Details 
+This project makes use of the SetProcessWorkingSetSize Windows API, which when invoked with (hProcess, -1, -1), minimizes the target process's working set size by deleting the greatest number of memory pages. The idea at the heart of this project is this API call.
 ```
 BOOL SetProcessWorkingSetSize(
   HANDLE hProcess,
@@ -15,4 +12,5 @@ BOOL SetProcessWorkingSetSize(
 );
 ```
 
-Calling SetProcessWorkingSetSize API with ( hProcess, -1, -1 ) will removes as many pages as possible from the working set of the specified process. Which is the core idea of this project. 
+## How to Install
+It is pretty simple, from the release page, download the exe attached file and run it. 
