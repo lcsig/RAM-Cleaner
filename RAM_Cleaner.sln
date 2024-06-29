@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Test", "Test\Test.vbproj", "{DE62D7ED-DE96-4E3E-94B9-DFC156862E46}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RAM_Cleaner", "RAM_Cleaner\RAM_Cleaner.vbproj", "{DE62D7ED-DE96-4E3E-94B9-DFC156862E46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD36E44D-27C7-4818-9EF8-E8C4916973A7}
 	EndGlobalSection
 EndGlobal

@@ -1,7 +1,7 @@
 ﻿Imports System.Runtime.InteropServices
 Imports System.Security.Principal
 
-Public Class Form1
+Public Class Main
 
 #Region "Design And Settings ..."
 
